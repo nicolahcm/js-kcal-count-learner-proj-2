@@ -1,0 +1,46 @@
+#topHeader {
+    background-color: rgb(177, 189, 200);
+    color:rgb(28, 101, 168);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+
+#formKcal {
+    display:flex;
+    justify-content: space-around;
+    border: 1px rgb(172, 150, 150) solid;
+}
+
+
+#formKcal > span {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.kcalCounterContainer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.item {
+    position: relative;
+    width: 70vw;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+
+.modifyItem {
+    position: absolute;
+    right: 60px;
+}
+
+
+
+
+
